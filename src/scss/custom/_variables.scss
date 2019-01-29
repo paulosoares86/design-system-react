@@ -37,11 +37,11 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
-$blue:    #5e72e4 !default;
+$blue:    #4C9EFF !default;
 $indigo:  #5603ad !default;
 $purple:  #8965e0 !default;
 $pink:    #f3a4b5 !default;
-$red:     #f5365c !default;
+$red:     #FF4C76 !default;
 $orange:  #fb6340 !default;
 $yellow:  #ffd600 !default;
 $green:   #2dce89 !default;
@@ -67,8 +67,8 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
-$default:       #172b4d !default;
-$primary:       #5e72e4 !default;
+$default:       #112D4E !default;
+$primary:       #4C9EFF !default;
 $secondary:     #f4f5f7 !default;
 $success:       $green !default;
 $info:          $teal !default;
@@ -574,10 +574,10 @@ $custom-toggle-checked-bg:  theme-color("primary") !default;
 
 // Form validation
 
-$form-feedback-valid-bg:         lighten($success, 15%);
+$form-feedback-valid-bg:         theme-color("success") !default;
 $form-feedback-valid-color:      theme-color("success") !default;
-$form-feedback-invalid-bg:       lighten($warning, 15%);
-$form-feedback-invalid-color:    theme-color("warning") !default;
+$form-feedback-invalid-bg:       theme-color("danger") !default;
+$form-feedback-invalid-color:    theme-color("danger") !default;
 
 
 // Allows for customizing button radius independently from global border radius

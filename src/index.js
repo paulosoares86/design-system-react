@@ -1,8 +1,13 @@
 import React from 'react';
-import Button from './templates/stories/Button';
+import { Buttons, Inputs } from './templates/stories';
 
-import './css/argon.min.css';
+import './scss/argon.scss';
 
 export default function ExampleComponent() {
-  return <Button />;
+  return (
+    <div>
+      <Buttons />
+      <Inputs />
+    </div>
+  );
 }
