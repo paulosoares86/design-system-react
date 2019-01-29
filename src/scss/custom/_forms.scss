@@ -89,7 +89,7 @@ textarea[resize="horizontal"] {
 .has-success {
     &:after {
         content: "\ea26";
-        color: daken($form-feedback-valid-color, 18%);
+        color: white;
         background-color: $form-feedback-valid-bg;
     }
     .form-control {
@@ -115,7 +115,7 @@ textarea[resize="horizontal"] {
 .has-danger {
     &:after {
         content: "\ea53";
-        color: daken($form-feedback-invalid-color, 18%);
+        color: white;
         background-color: $form-feedback-invalid-bg;
     }
     .form-control {
