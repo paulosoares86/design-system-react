@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import ExampleComponent from 'design-system-react'
+import ExampleComponent from 'design-system-react';
 
 export default class App extends Component {
   render () {
