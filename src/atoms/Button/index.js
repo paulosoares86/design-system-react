@@ -32,13 +32,13 @@ Button.propTypes = {
   title: PropTypes.string,
   size: PropTypes.string,
   color: PropTypes.string,
-  outline: PropTypes.string,
+  outline: PropTypes.bool,
 };
 
 Button.defaultProps = {
-  icon: false,
+  icon: null,
   title: 'Button',
   size: 'md',
   color: 'primary',
-  outline: null,
+  outline: false,
 };
