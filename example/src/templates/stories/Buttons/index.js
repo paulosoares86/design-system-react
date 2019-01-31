@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Link } from '../../../atoms';
+import { Button, Link } from 'design-system-react';
 
 // import styles from './styles.css'
 

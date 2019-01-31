@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, InputAlternative } from '../../../atoms';
+import { Input, InputAlternative } from 'design-system-react';
 
 export default function Inputs() {
   return (

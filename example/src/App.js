@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 
-import ExampleComponent from 'design-system-react';
+import { Header } from 'design-system-react';
+import { Buttons, Inputs } from './templates/stories';
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <Header />
+        <Buttons />
+        <Inputs />
       </div>
     )
   }
