@@ -370,8 +370,8 @@ $paragraph-font-size:         1rem !default;
 $paragraph-font-weight:       300 !default;
 $paragraph-line-height:       1.7 !default;
 
-$lead-font-size:              ($paragraph-font-size * 1.25);
-$lead-font-weight:            300 !default;
+$lead-font-size:              $h1-font-size;
+$lead-font-weight:            600 !default;
 
 $small-font-size:             80% !default;
 
@@ -644,8 +644,8 @@ $nav-pills-box-shadow:              $btn-box-shadow !default;
 // Navbar
 
 $navbar-transition:                 all .15s linear !default;
-$navbar-padding-y:                  1rem !default;
-$navbar-padding-x:                  1rem !default;
+$navbar-padding-y:                  0.7rem !default;
+$navbar-padding-x:                  0.7rem !default;
 
 $navbar-nav-link-padding-x:         1rem !default;
 $navbar-nav-link-padding-y:         1rem !default;

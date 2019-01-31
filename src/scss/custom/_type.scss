@@ -6,9 +6,13 @@ p {
 	line-height: $paragraph-line-height;
 } 
 
+.text-with-black-border {
+	text-shadow: 1px 1px 1px black;
+}
+
 .lead {
 	font-size: $lead-font-size;
-  	font-weight: $lead-font-weight;
+	font-weight: $lead-font-weight;
 	line-height: $paragraph-line-height;
 	margin-top: 1.5rem;
 
