@@ -25,11 +25,11 @@ export default function Header() {
               </div>
               <div className="col-md-4 text-white text-center">
                 <img src="./assets/images/icons/support.svg" alt="check icon" />
-                <p className="mt-4">Menor preço 100% garantido</p>
+                <p className="mt-4">Suporte online para tirar suas dúvidas</p>
               </div>
               <div className="col-md-4 text-white text-center">
                 <img src="./assets/images/icons/credit_card_hand.svg" alt="check icon" />
-                <p className="mt-4">Menor preço 100% garantido</p>
+                <p className="mt-4">Devolvemos seu dinheiro caso desista do mergulho</p>
               </div>
             </div>
           </div>
