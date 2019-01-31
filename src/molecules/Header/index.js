@@ -14,7 +14,9 @@ export default function Header() {
                 <h1 className="text-white text-with-black-border"><b>ScuBrasil Mergulhos</b></h1>
                 <h4 className="text-white text-with-black-border">Agende seu próximo mergulho com comodidade e segurança</h4>
                 <div className="btn-wrapper mt-5">
-                  <Button title="Procurar Mergulho" size="lg" />
+                  <a href="/#recomendations">
+                    <Button title="Procurar Mergulho" size="lg" />
+                  </a>
                 </div>
               </div>
             </div>
