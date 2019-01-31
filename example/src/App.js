@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { Header } from 'design-system-react';
-import { Buttons, Inputs } from './templates/stories';
+import { Buttons, Inputs, NavBars } from './templates/stories';
 
 export default class App extends Component {
   render() {
@@ -10,6 +10,7 @@ export default class App extends Component {
         <Header />
         <Buttons />
         <Inputs />
+        <NavBars />
       </div>
     )
   }

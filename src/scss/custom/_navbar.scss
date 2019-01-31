@@ -155,22 +155,26 @@
     }
 }
 
+.navbar-light {
+    border-bottom: 1px solid #eee;
+}
+
 // Transparent navbar
 .navbar-transparent {
     position: absolute;
     top: 0;
     width: 100%;
     z-index: 100;
-    background-color: transparent;
+    background-color: white;
     border: 0;
     box-shadow: none;
 
     .navbar-brand {
-        color: rgba(255, 255, 255, 1);
+        color: rgba(0, 0, 0, 1);
     }
 
     .navbar-toggler {
-        color: rgba(255, 255, 255, 1);
+        color: rgba(0, 0, 0, 1);
     }
 
     .navbar-toggler-icon {
