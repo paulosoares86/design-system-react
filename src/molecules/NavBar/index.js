@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white">
       <div className="container">
-        {LogoLink}
+        <LogoLink />
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-white" aria-controls="navbar-white" aria-expanded="false" aria-label="Toggle navigation">
           <i className="fas fa-bars" style={{ color: '#112D4E', width: 40 }} />
         </button>
@@ -15,7 +15,7 @@ export default function NavBar() {
           <div className="navbar-collapse-header">
             <div className="row">
               <div className="col-6 collapse-brand">
-                {LogoLink}
+                <LogoLink />
               </div>
               <div className="col-6 collapse-close">
                 <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbar-white" aria-controls="navbar-white" aria-expanded="false" aria-label="Toggle navigation">
