@@ -29,13 +29,13 @@ export default function NavBar() {
             <li className="nav-item">
               <a className="nav-link text-default" href="/#recomendations">MERGULHOS</a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link text-default" href="/articles">ARTIGOS</a>
-            </li>
+            </li> */}
             <li className="nav-item dropdown">
               <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-white_dropdown_1">
                 <a className="dropdown-item" href="/#recomendations">MERGULHOS</a>
-                <a className="dropdown-item" href="/articles">ARTIGOS</a>
+                {/* <a className="dropdown-item" href="/articles">ARTIGOS</a> */}
               </div>
             </li>
           </ul>
