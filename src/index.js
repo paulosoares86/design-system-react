@@ -1,4 +1,4 @@
-import './scss/argon.scss';
+import './scss/main.scss';
 
 export {
   NavBar,
