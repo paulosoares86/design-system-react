@@ -10,4 +10,5 @@ export {
   Input,
   InputAlternative,
   Link,
+  Container,
 } from './atoms';
