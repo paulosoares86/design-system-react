@@ -19,8 +19,8 @@ export default function NavBar() {
               </div>
               <div className="col-6 collapse-close">
                 <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbar-white" aria-controls="navbar-white" aria-expanded="false" aria-label="Toggle navigation">
-                  <span></span>
-                  <span></span>
+                  <span />
+                  <span />
                 </button>
               </div>
             </div>
